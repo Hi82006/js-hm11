@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/js.js"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h3>//     1) Створити форму валідації яка отримує:
+    //  нікнейм, повино  бути мінімум 2 символа,
+    //  емейл повинен перевіряти валідність і не пропускати невалідні емейли
+    // номер  телефону, повиенен перевіряти номер на валідність і пропускати номери телефону тільки з +3
+    </h3>
+    <div class="divForm" name="form">
+      <H2 class="reg">Register</H2>
+      <form action="#" name="myForm" id="form">
+        <div>
+            <input class="input" name="Nickname" type="text" id="name" placeholder="Nickname">
+        </div>
+        <div>
+          <input class="input" name="E-mail" type="text" id="e-mail" placeholder="E-mail">
+      </div>
+      <div>
+        <input class="input" name="Phone" type="text" id="pNumber" placeholder="Phone">
+      </div>
+        <input type="submit" class="submit cursor opacity" value="Register">
+    </form>
+    </div>
+    <div>
+      <h3>// 2) Напишіть функцію яка рахує кількість букв великого регістру в стрінгу і повертає кількість</h3>
+      <input type="text" id="task2" placeholder="введите текст " style="width: 150px;height: 30px;border: 2px black solid;">
+      <h4 id="result" style="width: 150px;height: 10px;"></h4>
+    </div>
+    <div>
+      <h3>// 3) Написати функцію яка видаляє всі тексктові символи з стрінка, а отриманні цифрові значення переводить в тип намбер та повертає його 
+      </h3>
+      <input type="text" id="task3" placeholder="введите текст " style="width: 150px;height: 30px;border: 2px black solid;">
+      <h4 id="result3" style="width: 150px;height: 10px;"></h4>
+    </div>
+    <div>
+      <h3>4) Створіть колор пікер який змінює значення кольору body і записує значення в sessionStorage. При завантаженні сторінки сешен сторедж повинен перевірятись, якщо там є ключ зі значенням кольору для body треюа примінити цей колір до body</h3>
+      <input type="color" style="width: 150px;height: 30px;border: 2px black solid;" id="bg">
+        change background
+    </input>
+    </div>
+    <div>
+      <h3>5) Створити інпут який отримує пін код ( це 4 цифрових значення). За допомогою регулярки перевітити чи валідний пін код ввів користувач</h3>
+      <input type="text" id="pin"style="width: 150px;height: 30px;border: 2px black solid;" placeholder="Введите пин">
+    </div>
+</body>
+</html>
